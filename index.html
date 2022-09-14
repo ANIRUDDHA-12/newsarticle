@@ -11,31 +11,34 @@
 </head>
 <body>
     <header>
-     <input placeholder="search" type="text">
-     <h2>Magdesign</h2>
+    <section class="searchBox">
+        <i class="fa fa-search"></i>
+        <input placeholder="Search.." type="text">
+    </section>
+  
+     <p class="heading">Magdesign</p>
      <section>
         <a href="https://twitter.com/explore"><i class="fa fa-twitter"></i></a>
         <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
         <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
      </section>
-     <p><i class="fa fa-bars fa-2x"></i></p>
+     <a href="#" onClick="showSidebar()"><i class="fa fa-bars fa-2x"></i></a>
     </header>
-    <div class="out">
-       <section> <i class="fa fa-close fa-2x"></i></section>
-            <ul>
+    <div class="sidebar" id="sidebar">
+        <section> 
+            <a href="#" onClick="closeSidebar()">
+                <i class="fa fa-close fa-2x"></i>
+            </a>
+        </section>
+        <ul>
                 <li>Home</li>
                 <li>Categories</li>
                 <li>Travel</li>
                 <li>Food</li>
                 <li>Technology</li>
                 <li>Business</li>
-            </ul>
-    </div>
-
-    
-
-
-
-    
+        </ul>
+    </div>   
 </body>
+<script src="home.js"></script>
 </html>
