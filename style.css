@@ -95,3 +95,46 @@ header>input{
     margin: 0 5px;
     color: gainsboro;
 }
+.banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70vw;
+    margin: auto;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    
+}
+.picture1{
+    width: 90%;
+    height: auto;
+    border-radius:7px;
+    padding: 20px;
+}
+.picture2{
+    width: 25vw;
+    height: auto;
+    border-radius:7px;
+    padding: 20px;
+}
+.carousel-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70vw;
+    margin: auto;
+    font-family: "Poppins", sans-serif;
+    color: #000; 
+}
+.carousel-item2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70vw;
+    margin: auto;
+    font-family: "Poppins", sans-serif;
+    color: #000; 
+}
+.picture3{
+    width: 25vw;
+    height: auto;
+    border-radius:7px;
+    padding: 20px;
+}
