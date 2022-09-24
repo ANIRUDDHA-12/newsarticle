@@ -110,12 +110,8 @@ header>input{
     border-radius:7px;
     padding: 20px;
 }
-.picture2{
-    width: 25vw;
-    height: auto;
-    border-radius:7px;
-    padding: 20px;
-}
+
+
 .carousel-item{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -132,9 +128,28 @@ header>input{
     font-family: "Poppins", sans-serif;
     color: #000; 
 }
-.picture3{
+.card1{
     width: 25vw;
     height: auto;
-    border-radius:7px;
-    padding: 20px;
+    padding:20px;
+    border: none;
+    display: grid;
 }
+.card1>img{
+    width:100%;
+    border-radius: 10px;
+}
+.blog{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr  1fr;
+    padding: 0 14vw;
+}
+.post{
+    text-align: center;
+    height: auto;
+    width:auto;
+    padding-top:7rem;
+    padding-bottom:7rem;
+}
+
